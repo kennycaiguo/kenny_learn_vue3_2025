@@ -1,2 +1,3 @@
 # kenny_learn_vue3_2025
 最新学习Vue3的笔记以及代码
+lesson2项目其实可以作为项目模板来使用
