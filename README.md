@@ -1,3 +1,0 @@
-# kenny_learn_vue3_2025
-最新学习Vue3的笔记以及代码
-我们在lesson2的基础上做了一个template文件夹,可以快速创建项目,只需要把template文件夹复制粘贴,修改一下项目名称和包名称,然后进入项目路径,运行npm install就可以安装依赖了
