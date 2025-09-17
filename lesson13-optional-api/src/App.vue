@@ -23,10 +23,12 @@
          </tr>
       </tbody>
     </table>
+
   </div>
 </template>
 
 <script>
+
   export  default {
     data() {
       return {
@@ -60,8 +62,10 @@
             hobbies:["读书","听音乐","打王者"]
           },
         ]
+
       }
     },
+
   }
 
 </script>
