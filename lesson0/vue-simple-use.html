@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue的简单使用</title>
+</head>
+<body>
+<div id="app">{{msg}}</div>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script>
+    let{createApp,ref} = Vue
+    createApp({
+        setup() {
+            const msg = ref('Hello vue!')
+            return {
+                msg
+            }
+        }
+    }).mount('#app')
+</script>
+</body>
+</html>
