@@ -23,7 +23,8 @@
          </tr>
       </tbody>
     </table>
-
+<!--     <h3 @click="updateDateTimeStr">当前时间:{{currentTime}}</h3>-->
+     <h3>当前时间:{{currentTime}}</h3>
   </div>
 </template>
 
@@ -32,6 +33,7 @@
   export  default {
     data() {
       return {
+        currentTime:"",
         students: [
           {
             id:1001,
@@ -65,7 +67,40 @@
 
       }
     },
+    methods:{
+      getDateTimerStr(){
+        let d = new Date() //每一次都需要new
+        let yr =d.getFullYear()
+        let mn =new String( d.getMonth()+1).padStart(2,"0")
+        let dy =new String( d.getDate()).padStart(2,"0")
 
+        let h = d.getHours()
+        if(h<10){
+          h = "0" + h
+        }
+
+        let m = d.getMinutes()
+        if(m<10){
+          m = "0" + m
+        }
+
+        let s = d.getSeconds()
+        if(s<10){
+          s = "0"+ s
+        }
+
+        return `${yr}-${mn}-${dy} ${h}:${m}:${s}`
+
+      },
+      updateDateTimeStr(){
+        setInterval(()=>{
+          this.currentTime = this.getDateTimerStr()
+        },1000)
+      }
+    },
+    mounted() {
+      this.updateDateTimeStr()
+    }
   }
 
 </script>
