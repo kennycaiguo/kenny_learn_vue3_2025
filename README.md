@@ -4,6 +4,9 @@ npm create vue@latest
 有很多选项可以选中使用ts或者js,我们暂时还是使用js
 其实,这个命令还有一个选项,就是问你是否创建空白的vue项目,这个等到我们熟练了,可以选择yes,然后就不会有多余的代码
 
+2023年Kerwin版的Vue3教程
+https://github.com/kennycaiguo/kenny-learn-vue3
+
 ## vue3开源项目推荐 10个适合学习vue3的优秀项目
 1.vue3-antd-admin
 项目地址：https://github.com/buqiyuan/vue3-antd-admin
