@@ -1,5 +1,7 @@
 <template>
-  <button>Click</button>
+  <button>
+    <slot>默认按钮</slot>
+  </button>
 </template>
 
 <script setup>
@@ -14,5 +16,6 @@
      background: linear-gradient(to right,deeppink,mediumpurple);
      border-radius: 5px;
      color:white;
+     margin: 5px;
    }
 </style>
