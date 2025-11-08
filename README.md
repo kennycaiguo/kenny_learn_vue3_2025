@@ -1,3 +1,5 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q41MTGJW)
+
 学习vue3开发,这里我们创建了一个项目模板,用模板来创建比较方便,不用每次都去删除多余文件和多余代码.
 ## 创建新项目
 npm create vue@latest
